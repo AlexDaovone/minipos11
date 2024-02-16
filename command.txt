@@ -1,0 +1,3 @@
+ຄຳສັ່ງ run project
+php artisan serve      : ສັ່ງ run project
+npm run dev            : ສັ່ງ compile Vue
