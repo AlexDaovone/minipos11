@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Core CSS -->
+    
     <link rel="stylesheet" href="assets/vendor/css/core.css?id=958c6f876b2d1acbc4d4114547d5ae20">
     <link rel="stylesheet" href="assets/vendor/css/theme-default.css?id=c1176873cc66093bc08d573f549565f3">
     <link rel="stylesheet" href="assets/css/demo.css?id=69dfc5e48fce5a4ff55ff7b593cdf93d">
+    <link rel="stylesheet" href="assets/css/font_lao.css">
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css?id=98fefe4424f0148a6e7c70b613511b33">
 
@@ -29,8 +31,7 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-    <h1>Hello laravel App version 2.0</h1>
-    <h2>update v3</h2>
+
     <div id="app-vue"></div>
     @vite('resources/js/app.js')
 
