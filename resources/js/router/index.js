@@ -6,6 +6,7 @@ import Transection from '../pages/Transection.vue';
 import Report from '../pages/Report.vue';
 import noPage from '../pages/NoPage.vue';
 import Login from '../pages/login.vue';
+import Register from '../pages/Register.vue';
 
 export const routes = [
     {
@@ -32,6 +33,11 @@ export const routes = [
         name: 'login',
         path: '/login',
         component: Login
+    },
+    {
+        name: 'register',
+        path: '/register',
+        component: Register
     },
     {
         name: 'nopage',
